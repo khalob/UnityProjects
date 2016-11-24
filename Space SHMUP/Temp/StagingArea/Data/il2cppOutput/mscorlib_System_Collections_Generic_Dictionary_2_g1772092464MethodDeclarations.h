@@ -1,0 +1,98 @@
+﻿#pragma once
+
+#include "il2cpp-config.h"
+
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+#include <stdint.h>
+#include <assert.h>
+#include <exception>
+
+
+#include "codegen/il2cpp-codegen.h"
+#include "mscorlib_System_Collections_Generic_Dictionary_2_g1620555966MethodDeclarations.h"
+
+// System.Void System.Collections.Generic.Dictionary`2<WeaponType,WeaponDefinition>::.ctor()
+#define Dictionary_2__ctor_m2892310789(__this, method) ((  void (*) (Dictionary_2_t1772092464 *, const MethodInfo*))Dictionary_2__ctor_m1150631147_gshared)(__this, method)
+// System.Void System.Collections.Generic.Dictionary`2<WeaponType,WeaponDefinition>::.ctor(System.Collections.Generic.IEqualityComparer`1<TKey>)
+#define Dictionary_2__ctor_m250919797(__this, ___comparer0, method) ((  void (*) (Dictionary_2_t1772092464 *, Il2CppObject*, const MethodInfo*))Dictionary_2__ctor_m2196341550_gshared)(__this, ___comparer0, method)
+// System.Void System.Collections.Generic.Dictionary`2<WeaponType,WeaponDefinition>::.ctor(System.Int32)
+#define Dictionary_2__ctor_m1785453027(__this, ___capacity0, method) ((  void (*) (Dictionary_2_t1772092464 *, int32_t, const MethodInfo*))Dictionary_2__ctor_m2524621622_gshared)(__this, ___capacity0, method)
+// System.Void System.Collections.Generic.Dictionary`2<WeaponType,WeaponDefinition>::.ctor(System.Int32,System.Collections.Generic.IEqualityComparer`1<TKey>)
+#define Dictionary_2__ctor_m4056419472(__this, ___capacity0, ___comparer1, method) ((  void (*) (Dictionary_2_t1772092464 *, int32_t, Il2CppObject*, const MethodInfo*))Dictionary_2__ctor_m493009797_gshared)(__this, ___capacity0, ___comparer1, method)
+// System.Void System.Collections.Generic.Dictionary`2<WeaponType,WeaponDefinition>::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+#define Dictionary_2__ctor_m398556281(__this, ___info0, ___context1, method) ((  void (*) (Dictionary_2_t1772092464 *, SerializationInfo_t228987430 *, StreamingContext_t1417235061 , const MethodInfo*))Dictionary_2__ctor_m1596790704_gshared)(__this, ___info0, ___context1, method)
+// System.Object System.Collections.Generic.Dictionary`2<WeaponType,WeaponDefinition>::System.Collections.IDictionary.get_Item(System.Object)
+#define Dictionary_2_System_Collections_IDictionary_get_Item_m4053130124(__this, ___key0, method) ((  Il2CppObject * (*) (Dictionary_2_t1772092464 *, Il2CppObject *, const MethodInfo*))Dictionary_2_System_Collections_IDictionary_get_Item_m2276389551_gshared)(__this, ___key0, method)
+// System.Void System.Collections.Generic.Dictionary`2<WeaponType,WeaponDefinition>::System.Collections.IDictionary.set_Item(System.Object,System.Object)
+#define Dictionary_2_System_Collections_IDictionary_set_Item_m3298502669(__this, ___key0, ___value1, method) ((  void (*) (Dictionary_2_t1772092464 *, Il2CppObject *, Il2CppObject *, const MethodInfo*))Dictionary_2_System_Collections_IDictionary_set_Item_m3585585196_gshared)(__this, ___key0, ___value1, method)
+// System.Void System.Collections.Generic.Dictionary`2<WeaponType,WeaponDefinition>::System.Collections.IDictionary.Add(System.Object,System.Object)
+#define Dictionary_2_System_Collections_IDictionary_Add_m691187922(__this, ___key0, ___value1, method) ((  void (*) (Dictionary_2_t1772092464 *, Il2CppObject *, Il2CppObject *, const MethodInfo*))Dictionary_2_System_Collections_IDictionary_Add_m915632221_gshared)(__this, ___key0, ___value1, method)
+// System.Void System.Collections.Generic.Dictionary`2<WeaponType,WeaponDefinition>::System.Collections.IDictionary.Remove(System.Object)
+#define Dictionary_2_System_Collections_IDictionary_Remove_m2184100609(__this, ___key0, method) ((  void (*) (Dictionary_2_t1772092464 *, Il2CppObject *, const MethodInfo*))Dictionary_2_System_Collections_IDictionary_Remove_m953757504_gshared)(__this, ___key0, method)
+// System.Object System.Collections.Generic.Dictionary`2<WeaponType,WeaponDefinition>::System.Collections.ICollection.get_SyncRoot()
+#define Dictionary_2_System_Collections_ICollection_get_SyncRoot_m2385292328(__this, method) ((  Il2CppObject * (*) (Dictionary_2_t1772092464 *, const MethodInfo*))Dictionary_2_System_Collections_ICollection_get_SyncRoot_m3666434123_gshared)(__this, method)
+// System.Boolean System.Collections.Generic.Dictionary`2<WeaponType,WeaponDefinition>::System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.get_IsReadOnly()
+#define Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_get_IsReadOnly_m4185824590(__this, method) ((  bool (*) (Dictionary_2_t1772092464 *, const MethodInfo*))Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_get_IsReadOnly_m286770029_gshared)(__this, method)
+// System.Void System.Collections.Generic.Dictionary`2<WeaponType,WeaponDefinition>::System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.Add(System.Collections.Generic.KeyValuePair`2<TKey,TValue>)
+#define Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Add_m496468097(__this, ___keyValuePair0, method) ((  void (*) (Dictionary_2_t1772092464 *, KeyValuePair_2_t3824404982 , const MethodInfo*))Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Add_m4057719522_gshared)(__this, ___keyValuePair0, method)
+// System.Boolean System.Collections.Generic.Dictionary`2<WeaponType,WeaponDefinition>::System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.Contains(System.Collections.Generic.KeyValuePair`2<TKey,TValue>)
+#define Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Contains_m3198670599(__this, ___keyValuePair0, method) ((  bool (*) (Dictionary_2_t1772092464 *, KeyValuePair_2_t3824404982 , const MethodInfo*))Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Contains_m2651341086_gshared)(__this, ___keyValuePair0, method)
+// System.Void System.Collections.Generic.Dictionary`2<WeaponType,WeaponDefinition>::System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.CopyTo(System.Collections.Generic.KeyValuePair`2<TKey,TValue>[],System.Int32)
+#define Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_CopyTo_m2220946189(__this, ___array0, ___index1, method) ((  void (*) (Dictionary_2_t1772092464 *, KeyValuePair_2U5BU5D_t1771532659*, int32_t, const MethodInfo*))Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_CopyTo_m1264579950_gshared)(__this, ___array0, ___index1, method)
+// System.Boolean System.Collections.Generic.Dictionary`2<WeaponType,WeaponDefinition>::System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.Remove(System.Collections.Generic.KeyValuePair`2<TKey,TValue>)
+#define Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Remove_m932163432(__this, ___keyValuePair0, method) ((  bool (*) (Dictionary_2_t1772092464 *, KeyValuePair_2_t3824404982 , const MethodInfo*))Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Remove_m2185002043_gshared)(__this, ___keyValuePair0, method)
+// System.Void System.Collections.Generic.Dictionary`2<WeaponType,WeaponDefinition>::System.Collections.ICollection.CopyTo(System.Array,System.Int32)
+#define Dictionary_2_System_Collections_ICollection_CopyTo_m1261002888(__this, ___array0, ___index1, method) ((  void (*) (Dictionary_2_t1772092464 *, Il2CppArray *, int32_t, const MethodInfo*))Dictionary_2_System_Collections_ICollection_CopyTo_m413885407_gshared)(__this, ___array0, ___index1, method)
+// System.Collections.IEnumerator System.Collections.Generic.Dictionary`2<WeaponType,WeaponDefinition>::System.Collections.IEnumerable.GetEnumerator()
+#define Dictionary_2_System_Collections_IEnumerable_GetEnumerator_m3341551303(__this, method) ((  Il2CppObject * (*) (Dictionary_2_t1772092464 *, const MethodInfo*))Dictionary_2_System_Collections_IEnumerable_GetEnumerator_m3665998712_gshared)(__this, method)
+// System.Collections.Generic.IEnumerator`1<System.Collections.Generic.KeyValuePair`2<TKey,TValue>> System.Collections.Generic.Dictionary`2<WeaponType,WeaponDefinition>::System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<TKey,TValue>>.GetEnumerator()
+#define Dictionary_2_System_Collections_Generic_IEnumerableU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_GetEnumerator_m1272952454(__this, method) ((  Il2CppObject* (*) (Dictionary_2_t1772092464 *, const MethodInfo*))Dictionary_2_System_Collections_Generic_IEnumerableU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_GetEnumerator_m44264661_gshared)(__this, method)
+// System.Collections.IDictionaryEnumerator System.Collections.Generic.Dictionary`2<WeaponType,WeaponDefinition>::System.Collections.IDictionary.GetEnumerator()
+#define Dictionary_2_System_Collections_IDictionary_GetEnumerator_m3967899297(__this, method) ((  Il2CppObject * (*) (Dictionary_2_t1772092464 *, const MethodInfo*))Dictionary_2_System_Collections_IDictionary_GetEnumerator_m2431728058_gshared)(__this, method)
+// System.Int32 System.Collections.Generic.Dictionary`2<WeaponType,WeaponDefinition>::get_Count()
+#define Dictionary_2_get_Count_m2009766084(__this, method) ((  int32_t (*) (Dictionary_2_t1772092464 *, const MethodInfo*))Dictionary_2_get_Count_m2989895359_gshared)(__this, method)
+// TValue System.Collections.Generic.Dictionary`2<WeaponType,WeaponDefinition>::get_Item(TKey)
+#define Dictionary_2_get_Item_m3710543947(__this, ___key0, method) ((  WeaponDefinition_t2840985793 * (*) (Dictionary_2_t1772092464 *, int32_t, const MethodInfo*))Dictionary_2_get_Item_m2009139134_gshared)(__this, ___key0, method)
+// System.Void System.Collections.Generic.Dictionary`2<WeaponType,WeaponDefinition>::set_Item(TKey,TValue)
+#define Dictionary_2_set_Item_m3245883502(__this, ___key0, ___value1, method) ((  void (*) (Dictionary_2_t1772092464 *, int32_t, WeaponDefinition_t2840985793 *, const MethodInfo*))Dictionary_2_set_Item_m1677708011_gshared)(__this, ___key0, ___value1, method)
+// System.Void System.Collections.Generic.Dictionary`2<WeaponType,WeaponDefinition>::Init(System.Int32,System.Collections.Generic.IEqualityComparer`1<TKey>)
+#define Dictionary_2_Init_m4151912588(__this, ___capacity0, ___hcp1, method) ((  void (*) (Dictionary_2_t1772092464 *, int32_t, Il2CppObject*, const MethodInfo*))Dictionary_2_Init_m3271041491_gshared)(__this, ___capacity0, ___hcp1, method)
+// System.Void System.Collections.Generic.Dictionary`2<WeaponType,WeaponDefinition>::InitArrays(System.Int32)
+#define Dictionary_2_InitArrays_m463286143(__this, ___size0, method) ((  void (*) (Dictionary_2_t1772092464 *, int32_t, const MethodInfo*))Dictionary_2_InitArrays_m1104851442_gshared)(__this, ___size0, method)
+// System.Void System.Collections.Generic.Dictionary`2<WeaponType,WeaponDefinition>::CopyToCheck(System.Array,System.Int32)
+#define Dictionary_2_CopyToCheck_m2561933129(__this, ___array0, ___index1, method) ((  void (*) (Dictionary_2_t1772092464 *, Il2CppArray *, int32_t, const MethodInfo*))Dictionary_2_CopyToCheck_m1654630440_gshared)(__this, ___array0, ___index1, method)
+// System.Collections.Generic.KeyValuePair`2<TKey,TValue> System.Collections.Generic.Dictionary`2<WeaponType,WeaponDefinition>::make_pair(TKey,TValue)
+#define Dictionary_2_make_pair_m393203139(__this /* static, unused */, ___key0, ___value1, method) ((  KeyValuePair_2_t3824404982  (*) (Il2CppObject * /* static, unused */, int32_t, WeaponDefinition_t2840985793 *, const MethodInfo*))Dictionary_2_make_pair_m1054776794_gshared)(__this /* static, unused */, ___key0, ___value1, method)
+// System.Void System.Collections.Generic.Dictionary`2<WeaponType,WeaponDefinition>::CopyTo(System.Collections.Generic.KeyValuePair`2<TKey,TValue>[],System.Int32)
+#define Dictionary_2_CopyTo_m2202774558(__this, ___array0, ___index1, method) ((  void (*) (Dictionary_2_t1772092464 *, KeyValuePair_2U5BU5D_t1771532659*, int32_t, const MethodInfo*))Dictionary_2_CopyTo_m1500996439_gshared)(__this, ___array0, ___index1, method)
+// System.Void System.Collections.Generic.Dictionary`2<WeaponType,WeaponDefinition>::Resize()
+#define Dictionary_2_Resize_m2656760346(__this, method) ((  void (*) (Dictionary_2_t1772092464 *, const MethodInfo*))Dictionary_2_Resize_m2391069541_gshared)(__this, method)
+// System.Void System.Collections.Generic.Dictionary`2<WeaponType,WeaponDefinition>::Add(TKey,TValue)
+#define Dictionary_2_Add_m1199063599(__this, ___key0, ___value1, method) ((  void (*) (Dictionary_2_t1772092464 *, int32_t, WeaponDefinition_t2840985793 *, const MethodInfo*))Dictionary_2_Add_m516891426_gshared)(__this, ___key0, ___value1, method)
+// System.Void System.Collections.Generic.Dictionary`2<WeaponType,WeaponDefinition>::Clear()
+#define Dictionary_2_Clear_m2142490127(__this, method) ((  void (*) (Dictionary_2_t1772092464 *, const MethodInfo*))Dictionary_2_Clear_m3901335266_gshared)(__this, method)
+// System.Boolean System.Collections.Generic.Dictionary`2<WeaponType,WeaponDefinition>::ContainsKey(TKey)
+#define Dictionary_2_ContainsKey_m3478241678(__this, ___key0, method) ((  bool (*) (Dictionary_2_t1772092464 *, int32_t, const MethodInfo*))Dictionary_2_ContainsKey_m3662509606_gshared)(__this, ___key0, method)
+// System.Void System.Collections.Generic.Dictionary`2<WeaponType,WeaponDefinition>::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+#define Dictionary_2_GetObjectData_m1613234132(__this, ___info0, ___context1, method) ((  void (*) (Dictionary_2_t1772092464 *, SerializationInfo_t228987430 *, StreamingContext_t1417235061 , const MethodInfo*))Dictionary_2_GetObjectData_m89283899_gshared)(__this, ___info0, ___context1, method)
+// System.Void System.Collections.Generic.Dictionary`2<WeaponType,WeaponDefinition>::OnDeserialization(System.Object)
+#define Dictionary_2_OnDeserialization_m1438265378(__this, ___sender0, method) ((  void (*) (Dictionary_2_t1772092464 *, Il2CppObject *, const MethodInfo*))Dictionary_2_OnDeserialization_m3456439563_gshared)(__this, ___sender0, method)
+// System.Boolean System.Collections.Generic.Dictionary`2<WeaponType,WeaponDefinition>::Remove(TKey)
+#define Dictionary_2_Remove_m2558474255(__this, ___key0, method) ((  bool (*) (Dictionary_2_t1772092464 *, int32_t, const MethodInfo*))Dictionary_2_Remove_m3574494518_gshared)(__this, ___key0, method)
+// System.Boolean System.Collections.Generic.Dictionary`2<WeaponType,WeaponDefinition>::TryGetValue(TKey,TValue&)
+#define Dictionary_2_TryGetValue_m3966758902(__this, ___key0, ___value1, method) ((  bool (*) (Dictionary_2_t1772092464 *, int32_t, WeaponDefinition_t2840985793 **, const MethodInfo*))Dictionary_2_TryGetValue_m1454643795_gshared)(__this, ___key0, ___value1, method)
+// TKey System.Collections.Generic.Dictionary`2<WeaponType,WeaponDefinition>::ToTKey(System.Object)
+#define Dictionary_2_ToTKey_m57564396(__this, ___key0, method) ((  int32_t (*) (Dictionary_2_t1772092464 *, Il2CppObject *, const MethodInfo*))Dictionary_2_ToTKey_m3856076773_gshared)(__this, ___key0, method)
+// TValue System.Collections.Generic.Dictionary`2<WeaponType,WeaponDefinition>::ToTValue(System.Object)
+#define Dictionary_2_ToTValue_m3804004340(__this, ___value0, method) ((  WeaponDefinition_t2840985793 * (*) (Dictionary_2_t1772092464 *, Il2CppObject *, const MethodInfo*))Dictionary_2_ToTValue_m4163059589_gshared)(__this, ___value0, method)
+// System.Boolean System.Collections.Generic.Dictionary`2<WeaponType,WeaponDefinition>::ContainsKeyValuePair(System.Collections.Generic.KeyValuePair`2<TKey,TValue>)
+#define Dictionary_2_ContainsKeyValuePair_m2535113726(__this, ___pair0, method) ((  bool (*) (Dictionary_2_t1772092464 *, KeyValuePair_2_t3824404982 , const MethodInfo*))Dictionary_2_ContainsKeyValuePair_m3408209019_gshared)(__this, ___pair0, method)
+// System.Collections.Generic.Dictionary`2/Enumerator<TKey,TValue> System.Collections.Generic.Dictionary`2<WeaponType,WeaponDefinition>::GetEnumerator()
+#define Dictionary_2_GetEnumerator_m157026919(__this, method) ((  Enumerator_t3092117166  (*) (Dictionary_2_t1772092464 *, const MethodInfo*))Dictionary_2_GetEnumerator_m3180383768_gshared)(__this, method)
+// System.Collections.DictionaryEntry System.Collections.Generic.Dictionary`2<WeaponType,WeaponDefinition>::<CopyTo>m__0(TKey,TValue)
+#define Dictionary_2_U3CCopyToU3Em__0_m3832198588(__this /* static, unused */, ___key0, ___value1, method) ((  DictionaryEntry_t3048875398  (*) (Il2CppObject * /* static, unused */, int32_t, WeaponDefinition_t2840985793 *, const MethodInfo*))Dictionary_2_U3CCopyToU3Em__0_m3436323365_gshared)(__this /* static, unused */, ___key0, ___value1, method)
